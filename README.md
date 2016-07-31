@@ -1,4 +1,4 @@
 # hello-world
-very first github repo
 
-Dit schiet dus echt niet op, baby steps tutorials SUCK!
+Renamed my initial test repo to use it for this Coursera course:
+https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome
