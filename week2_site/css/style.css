@@ -6,7 +6,7 @@ h1 {
     margin-bottom: 15px;
 }
 
-p {
+div {
     border: 1px solid black;
     /* margin-right: auto; leave this out for now and see whether the div styles are actually applied...*/
     width: 90%;
