@@ -30,6 +30,7 @@ h1 {
     height:300px;
     background: grey;
     margin-top: 20px;
+    float: none;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
