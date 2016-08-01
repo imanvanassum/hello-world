@@ -18,11 +18,16 @@ div {
 #protein {
     border: 1px solid black;
     float: right;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
+
+#text {
+    float: left;
+
 
 p {
     clear: left;
-    margin-bottom: 10px;
 }
 
 .row {
