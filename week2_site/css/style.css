@@ -16,6 +16,9 @@ p {
     font-family: Arial;
 }
 
+#protein {
+    float: right;
+
 .row {
     width: 100%;
 }
