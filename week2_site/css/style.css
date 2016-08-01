@@ -25,10 +25,11 @@ div {
 #text {
     float: left;
 
-
+/*
 p {
     clear: left;
 }
+*/
 
 .row {
     width: 100%;
