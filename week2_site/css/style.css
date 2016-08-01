@@ -16,11 +16,13 @@ div {
 }
 
 #protein {
+    border: 1px solid black;
     float: right;
 }
 
 p {
     clear: left;
+    margin-bottom: 10px;
 }
 
 .row {
