@@ -8,6 +8,7 @@
     <title>Restaurant Site Assignment</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
   </head>
 <body>
     <header>
@@ -15,25 +16,43 @@
             <div class="container">
                 <div class="navbar-header">
                     <a href="index.html" class="pull-left visible-md visible-lg">
-                        <div id="logo-img"></div>
+                        <div id="logo-img" alt="Logo image"></div>
                     </a>
 
                     <div class="navbar-brand">
                         <a href="index.html"><h1>Food LLC</h1></a>
                     </div>
 
-                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-                         <span class="sr-only">Toggle navigation</span>
-                         <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                     </button>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div><!-- navbar header -->
+
+                <div id="collapsable-nav" class="collapse collapsable-nav">
+                  <ul id="nav-list" class="nav navbar-nav navbar-right">
+                    <li>
+                      <span class="glyphicon glyphicon-thumbs-up"></span><br class="hidden-xs"> Beef
+                    </li>
+                    <li>
+                      <span class="glyphicon glyphicon-thumbs-up"></span><br class="hidden-xs"> Chicken
+                    </li>
+                    <li>
+                      <span class="glyphicon glyphicon-thumbs-up"></span><br class="hidden-xs"> Sushi
+                    </li>
+                  </ul>
+                </div>
             </div><!-- container -->
         </nav>
     </header>
 
-  <h1>Hello Coursera!</h1>
+  <h1 id="our-menu"> Our Menu </h1>  
+
+  <p class="text">The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a population of more than 19 billion as of 2011. Humans keep chickens primarily as a source of food, consuming both their meat and their eggs.</p>
+  <p class="text">Beef is the culinary name for meat from cattle. Beef can be harvested from bulls, heifers or steers. Its acceptability as a food source varies in different parts of the world.
+    Beef muscle meat can be cut into roasts, short ribs or steak (filet mignon, sirloin steak, rump steak, rib steak, rib eye steak, hanger steak, etc.) Some cuts are processed (corned beef or beef jerky), and trimmings, usually mixed with meat from older, leaner cattle, are ground, minced or used in sausages.</p>
+  <p class="text">Sushi (すし, 寿司, 鮨?) is a type of food preparation originating in Japan, consisting of cooked vinegared rice (鮨飯 sushi-meshi) combined with other ingredients (ネタ neta) such as raw seafood, vegetables and sometimes tropical fruits. Ingredients and forms of sushi presentation vary widely, but the ingredient which all sushi have in common is rice (also referred to as shari (しゃり) or sumeshi (酢飯)).</p>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
